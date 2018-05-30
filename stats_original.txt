@@ -1,0 +1,720 @@
+|===== Choice: s =====|
+Name: sp_00
+Detected segments (TP, TN, and FP): 1490
+Coconut count (TP and/or FP): 1
+Overlapped coconuts (TN1): 0
+Non-coconut count (TN2): 1489
+Overlap + non-coconut count (TN1+TN2): 1489
+
+|===== Choice: s =====|
+Name: sp_01
+Detected segments (TP, TN, and FP): 419
+Coconut count (TP and/or FP): 13
+Overlapped coconuts (TN1): 23
+Non-coconut count (TN2): 383
+Overlap + non-coconut count (TN1+TN2): 406
+
+|===== Choice: s =====|
+Name: sp_02
+Detected segments (TP, TN, and FP): 606
+Coconut count (TP and/or FP): 8
+Overlapped coconuts (TN1): 14
+Non-coconut count (TN2): 584
+Overlap + non-coconut count (TN1+TN2): 598
+
+|===== Choice: s =====|
+Name: sp_03
+Detected segments (TP, TN, and FP): 110
+Coconut count (TP and/or FP): 1
+Overlapped coconuts (TN1): 8
+Non-coconut count (TN2): 101
+Overlap + non-coconut count (TN1+TN2): 109
+
+|===== Choice: s =====|
+Name: sp_04
+Detected segments (TP, TN, and FP): 741
+Coconut count (TP and/or FP): 14
+Overlapped coconuts (TN1): 21
+Non-coconut count (TN2): 706
+Overlap + non-coconut count (TN1+TN2): 727
+
+|===== Choice: s =====|
+Name: sp_05
+Detected segments (TP, TN, and FP): 187
+Coconut count (TP and/or FP): 1
+Overlapped coconuts (TN1): 4
+Non-coconut count (TN2): 182
+Overlap + non-coconut count (TN1+TN2): 186
+
+|===== Choice: s =====|
+Name: sp_06
+Detected segments (TP, TN, and FP): 3246
+Coconut count (TP and/or FP): 4
+Overlapped coconuts (TN1): 1
+Non-coconut count (TN2): 1995
+Overlap + non-coconut count: 1996
+
+|===== Choice: s =====|
+Name: sp_07
+Detected segments (TP, TN, and FP): 351
+Coconut count (TP and/or FP): 1
+Overlapped coconuts (TN1): 4
+Non-coconut count (TN2): 346
+Overlap + non-coconut count (TN1+TN2): 350
+
+|===== Choice: s =====|
+Name: sp_08
+Detected segments (TP, TN, and FP): 603
+Coconut count (TP and/or FP): 7
+Overlapped coconuts (TN1): 9
+Non-coconut count (TN2): 587
+Overlap + non-coconut count (TN1+TN2): 596
+
+|===== Choice: s =====|
+Name: sp_09
+Detected segments (TP, TN, and FP): 279
+Coconut count (TP and/or FP): 4
+Overlapped coconuts (TN1): 5
+Non-coconut count (TN2): 270
+Overlap + non-coconut count (TN1+TN2): 275
+
+|===== Choice: s =====|
+Name: sp_10
+Detected segments (TP, TN, and FP): 699
+Coconut count (TP and/or FP): 4
+Overlapped coconuts (TN1): 8
+Non-coconut count (TN2): 687
+Overlap + non-coconut count (TN1+TN2): 695
+
+|===== Choice: s =====|
+Name: sp_11
+Detected segments (TP, TN, and FP): 130
+Coconut count (TP and/or FP): 1
+Overlapped coconuts (TN1): 1
+Non-coconut count (TN2): 128
+Overlap + non-coconut count (TN1+TN2): 129
+
+|===== Choice: s =====|
+Name: sp_12
+Detected segments (TP, TN, and FP): 1253
+Coconut count (TP and/or FP): 3
+Overlapped coconuts (TN1): 2
+Non-coconut count (TN2): 1248
+Overlap + non-coconut count (TN1+TN2): 1250
+
+|===== Choice: s =====|
+Name: sp_13
+Detected segments (TP, TN, and FP): 725
+Coconut count (TP and/or FP): 4
+Overlapped coconuts (TN1): 4
+Non-coconut count (TN2): 717
+Overlap + non-coconut count (TN1+TN2): 721
+
+|===== Choice: s =====|
+Name: sp_14
+Detected segments (TP, TN, and FP): 477
+Coconut count (TP and/or FP): 3
+Overlapped coconuts (TN1): 8
+Non-coconut count (TN2): 466
+Overlap + non-coconut count (TN1+TN2): 474
+
+|===== Choice: s =====|
+Name: sp_15
+Detected segments (TP, TN, and FP): 552
+Coconut count (TP and/or FP): 2
+Overlapped coconuts (TN1): 1
+Non-coconut count (TN2): 549
+Overlap + non-coconut count (TN1+TN2): 550
+
+|===== Choice: s =====|
+Name: sp_16
+Detected segments (TP, TN, and FP): 1126
+Coconut count (TP and/or FP): 7
+Overlapped coconuts (TN1): 5
+Non-coconut count (TN2): 1114
+Overlap + non-coconut count (TN1+TN2): 1119
+
+|===== Choice: s =====|
+Name: sp_17
+Detected segments (TP, TN, and FP): 786
+Coconut count (TP and/or FP): 5
+Overlapped coconuts (TN1): 4
+Non-coconut count (TN2): 777
+Overlap + non-coconut count (TN1+TN2): 781
+
+|===== Choice: s =====|
+Name: sp_18
+Detected segments (TP, TN, and FP): 70
+Coconut count (TP and/or FP): 1
+Overlapped coconuts (TN1): 2
+Non-coconut count (TN2): 67
+Overlap + non-coconut count (TN1+TN2): 69
+
+|===== Choice: s =====|
+Name: sp_19
+Detected segments (TP, TN, and FP): 751
+Coconut count (TP and/or FP): 1
+Overlapped coconuts (TN1): 1
+Non-coconut count (TN2): 749
+Overlap + non-coconut count (TN1+TN2): 750
+
+|===== Choice: s =====|
+Name: sp_20
+Detected segments (TP, TN, and FP): 1488
+Coconut count (TP and/or FP): 3
+Overlapped coconuts (TN1): 6
+Non-coconut count (TN2): 1479
+Overlap + non-coconut count (TN1+TN2): 1485
+
+|===== Choice: s =====|
+Name: sp_21
+Detected segments (TP, TN, and FP): 979
+Coconut count (TP and/or FP): 1
+Overlapped coconuts (TN1): 0
+Non-coconut count (TN2): 978
+Overlap + non-coconut count (TN1+TN2): 978
+
+|===== Choice: s =====|
+Name: sp_22
+Detected segments (TP, TN, and FP): 417
+Coconut count (TP and/or FP): 7
+Overlapped coconuts (TN1): 5
+Non-coconut count (TN2): 405
+Overlap + non-coconut count (TN1+TN2): 410
+
+|===== Choice: s =====|
+Name: sp_23
+Detected segments (TP, TN, and FP): 724
+Coconut count (TP and/or FP): 5
+Overlapped coconuts (TN1): 11
+Non-coconut count (TN2): 708
+Overlap + non-coconut count (TN1+TN2): 719
+
+|===== Choice: s =====|
+Name: sp_24
+Detected segments (TP, TN, and FP): 850
+Coconut count (TP and/or FP): 6
+Overlapped coconuts (TN1): 2
+Non-coconut count (TN2): 842
+Overlap + non-coconut count (TN1+TN2): 844
+
+|===== Choice: s =====|
+Name: sp_25
+Detected segments (TP, TN, and FP): 1279
+Coconut count (TP and/or FP): 0
+Overlapped coconuts (TN1): 0
+Non-coconut count (TN2): 1279
+Overlap + non-coconut count (TN1+TN2): 1279
+
+|===== Choice: s =====|
+Name: sp_26
+Detected segments (TP, TN, and FP): 82
+Coconut count (TP and/or FP): 0
+Overlapped coconuts (TN1): 0
+Non-coconut count (TN2): 82
+Overlap + non-coconut count (TN1+TN2): 82
+
+|===== Choice: s =====|
+Name: sp_27
+Detected segments (TP, TN, and FP): 386
+Coconut count (TP and/or FP): 0
+Overlapped coconuts (TN1): 0
+Non-coconut count (TN2): 386
+Overlap + non-coconut count (TN1+TN2): 386
+
+|===== Choice: s =====|
+Name: sp_28
+Detected segments (TP, TN, and FP): 1245
+Coconut count (TP and/or FP): 11
+Overlapped coconuts (TN1): 7
+Non-coconut count (TN2): 1227
+Overlap + non-coconut count (TN1+TN2): 1234
+
+|===== Choice: s =====|
+Name: sp_29
+Detected segments (TP, TN, and FP): 348
+Coconut count (TP and/or FP): 0
+Overlapped coconuts (TN1): 0
+Non-coconut count (TN2): 348
+Overlap + non-coconut count (TN1+TN2): 348
+
+|===== Choice: f =====|
+Name: sp_00
+Detected segments (TP, TN, and FP): 6798
+Coconut count (TP and/or FP): 4
+Overlapped coconuts (TN1): 0
+Non-coconut count (TN2): 1996
+Overlap + non-coconut count (TN1+TN2): 1996
+
+|===== Choice: f =====|
+Name: sp_01
+Detected segments (TP, TN, and FP): 2118
+Coconut count (TP and/or FP): 18
+Overlapped coconuts (TN1): 168
+Non-coconut count (TN2): 1814
+Overlap + non-coconut count (TN1+TN2): 1982
+
+|===== Choice: f =====|
+Name: sp_02
+Detected segments (TP, TN, and FP): 2754
+Coconut count (TP and/or FP): 11
+Overlapped coconuts (TN1): 44
+Non-coconut count (TN2): 1945
+Overlap + non-coconut count (TN1+TN2): 1989
+
+|===== Choice: f =====|
+Name: sp_03
+Detected segments (TP, TN, and FP): 528
+Coconut count (TP and/or FP): 3
+Overlapped coconuts (TN1): 79
+Non-coconut count (TN2): 446
+Overlap + non-coconut count (TN1+TN2): 525
+
+|===== Choice: f =====|
+Name: sp_04
+Detected segments (TP, TN, and FP): 3664
+Coconut count (TP and/or FP): 22
+Overlapped coconuts (TN1): 75
+Non-coconut count (TN2): 1903
+Overlap + non-coconut count (TN1+TN2): 1978
+
+|===== Choice: f =====|
+Name: sp_05
+Detected segments (TP, TN, and FP): 780
+Coconut count (TP and/or FP): 4
+Overlapped coconuts (TN1): 24
+Non-coconut count (TN2): 752
+Overlap + non-coconut count (TN1+TN2): 776
+
+|===== Choice: f =====|
+Name: sp_06
+Detected segments (TP, TN, and FP): 15300
+Coconut count (TP and/or FP): 6
+Overlapped coconuts (TN1): 2
+Non-coconut count (TN2): 1992
+Overlap + non-coconut count: 1994
+
+|===== Choice: f =====|
+Name: sp_07
+Detected segments (TP, TN, and FP): 1430
+Coconut count (TP and/or FP): 1
+Overlapped coconuts (TN1): 42
+Non-coconut count (TN2): 1387
+Overlap + non-coconut count (TN1+TN2): 1429
+
+|===== Choice: f =====|
+Name: sp_08
+Detected segments (TP, TN, and FP): 2862
+Coconut count (TP and/or FP): 13
+Overlapped coconuts (TN1): 24
+Non-coconut count (TN2): 1963
+Overlap + non-coconut count (TN1+TN2): 1987
+
+|===== Choice: f =====|
+Name: sp_09
+Detected segments (TP, TN, and FP): 1318
+Coconut count (TP and/or FP): 5
+Overlapped coconuts (TN1): 44
+Non-coconut count (TN2): 1269
+Overlap + non-coconut count (TN1+TN2): 1313
+
+|===== Choice: f =====|
+Name: sp_10
+Detected segments (TP, TN, and FP): 3577
+Coconut count (TP and/or FP): 7
+Overlapped coconuts (TN1): 17
+Non-coconut count (TN2): 1976
+Overlap + non-coconut count (TN1+TN2): 1993
+
+|===== Choice: f =====|
+Name: sp_11
+Detected segments (TP, TN, and FP): 637
+Coconut count (TP and/or FP): 1
+Overlapped coconuts (TN1): 6
+Non-coconut count (TN2): 630
+Overlap + non-coconut count (TN1+TN2): 636
+
+|===== Choice: f =====|
+Name: sp_12
+Detected segments (TP, TN, and FP): 5973
+Coconut count (TP and/or FP): 6
+Overlapped coconuts (TN1): 4
+Non-coconut count (TN2): 1990
+Overlap + non-coconut count (TN1+TN2): 1994
+
+|===== Choice: f =====|
+Name: sp_13
+Detected segments (TP, TN, and FP): 3344
+Coconut count (TP and/or FP): 4
+Overlapped coconuts (TN1): 8
+Non-coconut count (TN2): 1988
+Overlap + non-coconut count (TN1+TN2): 1996
+
+|===== Choice: f =====|
+Name: sp_14
+Detected segments (TP, TN, and FP): 2295
+Coconut count (TP and/or FP): 10
+Overlapped coconuts (TN1): 68
+Non-coconut count (TN2): 1922
+Overlap + non-coconut count (TN1+TN2): 1990
+
+|===== Choice: f =====|
+Name: sp_15
+Detected segments (TP, TN, and FP): 2691
+Coconut count (TP and/or FP): 9
+Overlapped coconuts (TN1): 20
+Non-coconut count (TN2): 1971
+Overlap + non-coconut count (TN1+TN2): 1991
+
+|===== Choice: f =====|
+Name: sp_16
+Detected segments (TP, TN, and FP): 4417
+Coconut count (TP and/or FP): 2
+Overlapped coconuts (TN1): 5
+Non-coconut count (TN2): 1993
+Overlap + non-coconut count (TN1+TN2): 1998
+
+|===== Choice: f =====|
+Name: sp_17
+Detected segments (TP, TN, and FP): 4025
+Coconut count (TP and/or FP): 12
+Overlapped coconuts (TN1): 21
+Non-coconut count (TN2): 1967
+Overlap + non-coconut count (TN1+TN2): 1988
+
+|===== Choice: f =====|
+Name: sp_18
+Detected segments (TP, TN, and FP): 308
+Coconut count (TP and/or FP): 2
+Overlapped coconuts (TN1): 7
+Non-coconut count (TN2): 299
+Overlap + non-coconut count (TN1+TN2): 306
+
+|===== Choice: f =====|
+Name: sp_19
+Detected segments (TP, TN, and FP): 3178
+Coconut count (TP and/or FP): 2
+Overlapped coconuts (TN1): 2
+Non-coconut count (TN2): 1996
+Overlap + non-coconut count (TN1+TN2): 1998
+
+|===== Choice: f =====|
+Name: sp_20
+Detected segments (TP, TN, and FP): 7277
+Coconut count (TP and/or FP): 8
+Overlapped coconuts (TN1): 6
+Non-coconut count (TN2): 1986
+Overlap + non-coconut count (TN1+TN2): 1992
+
+|===== Choice: f =====|
+Name: sp_21
+Detected segments (TP, TN, and FP): 4040
+Coconut count (TP and/or FP): 6
+Overlapped coconuts (TN1): 13
+Non-coconut count (TN2): 1981
+Overlap + non-coconut count (TN1+TN2): 1994
+
+|===== Choice: f =====|
+Name: sp_22
+Detected segments (TP, TN, and FP): 1986
+Coconut count (TP and/or FP): 10
+Overlapped coconuts (TN1): 41
+Non-coconut count (TN2): 1935
+Overlap + non-coconut count (TN1+TN2): 1976
+
+|===== Choice: f =====|
+Name: sp_23
+Detected segments (TP, TN, and FP): 3573
+Coconut count (TP and/or FP): 7
+Overlapped coconuts (TN1): 33
+Non-coconut count (TN2): 1960
+Overlap + non-coconut count (TN1+TN2): 1993
+
+|===== Choice: f =====|
+Name: sp_24
+Detected segments (TP, TN, and FP): 3748
+Coconut count (TP and/or FP): 9
+Overlapped coconuts (TN1): 9
+Non-coconut count (TN2): 1982
+Overlap + non-coconut count (TN1+TN2): 1991
+
+|===== Choice: f =====|
+Name: sp_25
+Detected segments (TP, TN, and FP): 5130
+Coconut count (TP and/or FP): 1
+Overlapped coconuts (TN1): 1
+Non-coconut count (TN2): 1998
+Overlap + non-coconut count (TN1+TN2): 1999
+
+|===== Choice: f =====|
+Name: sp_26
+Detected segments (TP, TN, and FP): 422
+Coconut count (TP and/or FP): 0
+Overlapped coconuts (TN1): 0
+Non-coconut count (TN2): 422
+Overlap + non-coconut count (TN1+TN2): 422
+
+|===== Choice: f =====|
+Name: sp_27
+Detected segments (TP, TN, and FP): 1841
+Coconut count (TP and/or FP): 0
+Overlapped coconuts (TN1): 0
+Non-coconut count (TN2): 1841
+Overlap + non-coconut count (TN1+TN2): 1841
+
+|===== Choice: f =====|
+Name: sp_28
+Detected segments (TP, TN, and FP): 5759
+Coconut count (TP and/or FP): 11
+Overlapped coconuts (TN1): 14
+Non-coconut count (TN2): 1975
+Overlap + non-coconut count (TN1+TN2): 1989
+
+|===== Choice: f =====|
+Name: sp_29
+Detected segments (TP, TN, and FP): 1824
+Coconut count (TP and/or FP): 0
+Overlapped coconuts (TN1): 0
+Non-coconut count (TN2): 1824
+Overlap + non-coconut count (TN1+TN2): 1824
+
+|===== Choice: q =====|
+Name: sp_00
+Detected segments (TP, TN, and FP): 25051
+Coconut count (TP and/or FP): 2
+Overlapped coconuts (TN1): 0
+Non-coconut count (TN2): 1998
+Overlap + non-coconut count (TN1+TN2): 1998
+
+|===== Choice: q =====|
+Name: sp_01
+Detected segments (TP, TN, and FP): 7562
+Coconut count (TP and/or FP): 3
+Overlapped coconuts (TN1): 86
+Non-coconut count (TN2): 1911
+Overlap + non-coconut count (TN1+TN2): 1997
+
+|===== Choice: q =====|
+Name: sp_02
+Detected segments (TP, TN, and FP): 10569
+Coconut count (TP and/or FP): 13
+Overlapped coconuts (TN1): 42
+Non-coconut count (TN2): 1945
+Overlap + non-coconut count (TN1+TN2): 1987
+
+|===== Choice: q =====|
+Name: sp_03
+Detected segments (TP, TN, and FP): 1674
+Coconut count (TP and/or FP): 3
+Overlapped coconuts (TN1): 299
+Non-coconut count (TN2): 1372
+Overlap + non-coconut count (TN1+TN2): 1671
+
+|===== Choice: q =====|
+Name: sp_04
+Detected segments (TP, TN, and FP): 15451
+Coconut count (TP and/or FP): 21
+Overlapped coconuts (TN1): 86
+Non-coconut count (TN2): 1893
+Overlap + non-coconut count (TN1+TN2): 1979
+
+|===== Choice: q =====|
+Name: sp_05
+Detected segments (TP, TN, and FP): 2371
+Coconut count (TP and/or FP): 5
+Overlapped coconuts (TN1): 42
+Non-coconut count (TN2): 1953
+Overlap + non-coconut count (TN1+TN2): 1995
+
+|===== Choice: q =====|
+Name: sp_06
+Detected segments (TP, TN, and FP): 60272
+Coconut count (TP and/or FP): 3
+Overlapped coconuts (TN1): 0
+Non-coconut count (TN2): 1997
+Overlap + non-coconut count (TN1+TN2): 1997
+
+|===== Choice: q =====|
+Name: sp_07
+Detected segments (TP, TN, and FP): 4442
+Coconut count (TP and/or FP): 2
+Overlapped coconuts (TN1): 13
+Non-coconut count (TN2): 1985
+Overlap + non-coconut count (TN1+TN2): 1998
+
+|===== Choice: q =====|
+Name: sp_08
+Detected segments (TP, TN, and FP): 11780
+Coconut count (TP and/or FP): 9
+Overlapped coconuts (TN1): 23
+Non-coconut count (TN2): 1968
+Overlap + non-coconut count (TN1+TN2): 1991
+
+|===== Choice: q =====|
+Name: sp_09
+Detected segments (TP, TN, and FP): 4129
+Coconut count (TP and/or FP): 5
+Overlapped coconuts (TN1): 26
+Non-coconut count (TN2): 1969
+Overlap + non-coconut count (TN1+TN2): 1995
+
+|===== Choice: q =====|
+Name: sp_10
+Detected segments (TP, TN, and FP): 14923
+Coconut count (TP and/or FP): 3
+Overlapped coconuts (TN1): 14
+Non-coconut count (TN2): 1983
+Overlap + non-coconut count (TN1+TN2): 1997
+
+|===== Choice: q =====|
+Name: sp_11
+Detected segments (TP, TN, and FP): 2099
+Coconut count (TP and/or FP): 3
+Overlapped coconuts (TN1): 14
+Non-coconut count (TN2): 1983
+Overlap + non-coconut count (TN1+TN2): 1997
+
+|===== Choice: q =====|
+Name: sp_12
+Detected segments (TP, TN, and FP): 22561
+Coconut count (TP and/or FP): 4
+Overlapped coconuts (TN1): 4
+Non-coconut count (TN2): 1992
+Overlap + non-coconut count (TN1+TN2): 1996
+
+|===== Choice: q =====|
+Name: sp_13
+Detected segments (TP, TN, and FP): 11690
+Coconut count (TP and/or FP): 3
+Overlapped coconuts (TN1): 7
+Non-coconut count (TN2): 1990
+Overlap + non-coconut count (TN1+TN2): 1997
+
+|===== Choice: q =====|
+Name: sp_14
+Detected segments (TP, TN, and FP): 9013
+Coconut count (TP and/or FP): 9
+Overlapped coconuts (TN1): 27
+Non-coconut count (TN2): 1964
+Overlap + non-coconut count (TN1+TN2): 1991
+
+|===== Choice: q =====|
+Name: sp_15
+Detected segments (TP, TN, and FP): 9835
+Coconut count (TP and/or FP): 11
+Overlapped coconuts (TN1): 22
+Non-coconut count (TN2): 1967
+Overlap + non-coconut count (TN1+TN2): 1989
+
+|===== Choice: q =====|
+Name: sp_16
+Detected segments (TP, TN, and FP): 14899
+Coconut count (TP and/or FP): 3
+Overlapped coconuts (TN1): 10
+Non-coconut count (TN2): 1987
+Overlap + non-coconut count (TN1+TN2): 1997
+
+|===== Choice: q =====|
+Name: sp_17
+Detected segments (TP, TN, and FP): 14899
+Coconut count (TP and/or FP): 10
+Overlapped coconuts (TN1): 24
+Non-coconut count (TN2): 1966
+Overlap + non-coconut count (TN1+TN2): 1990
+
+|===== Choice: q =====|
+Name: sp_18
+Detected segments (TP, TN, and FP): 939
+Coconut count (TP and/or FP): 2
+Overlapped coconuts (TN1): 32
+Non-coconut count (TN2): 905
+Overlap + non-coconut count (TN1+TN2): 937
+
+|===== Choice: q =====|
+Name: sp_19
+Detected segments (TP, TN, and FP): 12117
+Coconut count (TP and/or FP): 1
+Overlapped coconuts (TN1): 7
+Non-coconut count (TN2): 1992
+Overlap + non-coconut count (TN1+TN2): 1999
+
+|===== Choice: q =====|
+Name: sp_20
+Detected segments (TP, TN, and FP): 30828
+Coconut count (TP and/or FP): 5
+Overlapped coconuts (TN1): 7
+Non-coconut count (TN2): 1988
+Overlap + non-coconut count (TN1+TN2): 1995
+
+|===== Choice: q =====|
+Name: sp_21
+Detected segments (TP, TN, and FP): 12845
+Coconut count (TP and/or FP): 9
+Overlapped coconuts (TN1): 7
+Non-coconut count (TN2): 1984
+Overlap + non-coconut count (TN1+TN2): 1991
+
+|===== Choice: q =====|
+Name: sp_22
+Detected segments (TP, TN, and FP): 7182
+Coconut count (TP and/or FP): 6
+Overlapped coconuts (TN1): 20
+Non-coconut count (TN2): 1974
+Overlap + non-coconut count (TN1+TN2): 1994
+
+|===== Choice: q =====|
+Name: sp_23
+Detected segments (TP, TN, and FP): 13646
+Coconut count (TP and/or FP): 10
+Overlapped coconuts (TN1): 27
+Non-coconut count (TN2): 1963
+Overlap + non-coconut count (TN1+TN2): 1990
+
+|===== Choice: q =====|
+Name: sp_24
+Detected segments (TP, TN, and FP): 11394
+Coconut count (TP and/or FP): 6
+Overlapped coconuts (TN1): 7
+Non-coconut count (TN2): 1987
+Overlap + non-coconut count (TN1+TN2): 1994
+
+|===== Choice: q =====|
+Name: sp_25
+Detected segments (TP, TN, and FP): 15686
+Coconut count (TP and/or FP): 1
+Overlapped coconuts (TN1): 0
+Non-coconut count (TN2): 1999
+Overlap + non-coconut count (TN1+TN2): 1999
+
+|===== Choice: q =====|
+Name: sp_26
+Detected segments (TP, TN, and FP): 1416
+Coconut count (TP and/or FP): 0
+Overlapped coconuts (TN1): 0
+Non-coconut count (TN2): 1416
+Overlap + non-coconut count (TN1+TN2): 1416
+
+|===== Choice: q =====|
+Name: sp_27
+Detected segments (TP, TN, and FP): 6316
+Coconut count (TP and/or FP): 0
+Overlapped coconuts (TN1): 0
+Non-coconut count (TN2): 2000
+Overlap + non-coconut count (TN1+TN2): 2000
+
+|===== Choice: q =====|
+Name: sp_28
+Detected segments (TP, TN, and FP): 19347
+Coconut count (TP and/or FP): 7
+Overlapped coconuts (TN1): 3
+Non-coconut count (TN2): 1990
+Overlap + non-coconut count (TN1+TN2): 1993
+
+|===== Choice: q =====|
+Name: sp_29
+Detected segments (TP, TN, and FP): 7618
+Coconut count (TP and/or FP): 0
+Overlapped coconuts (TN1): 0
+Non-coconut count (TN2): 2000
+Overlap + non-coconut count (TN1+TN2): 2000
+
