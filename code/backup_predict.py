@@ -37,11 +37,23 @@ model = load_model('../models/coconuts_pretrained_15.h5')
 # file = open("../stats_new_ss.txt", "a")
 
 # Read image file
-newname = "sp_02"
-img = cv2.imread("../dataset/predictions/images/" + newname + ".png")
+newname = "sp_04"
+img = cv2.imread("../dataset/predictions/images/" + newname + ".jpg")
+img_h, img_w, img_c = img.shape
+
+print "Height: ", img_h
+print "Width: ", img_w
+
+# Initialize image areas to zero
+image_gt = np.zeros((img_w, img_h))
+image_d = np.zeros((img_w, img_h))
+image_o = np.zeros((img_w, img_h))
+count_gt = 0
+count_d = 0
+count_o = 0
 
 # Open text file for segment dimensions
-fname = "segments_02"
+fname = "segments_04"
 f = open("../gt_segments/" + fname + ".txt")
 
 # Map all ground truth segments
@@ -50,7 +62,13 @@ for line in f.read().split():
     arr = line.split(',')
     arr = map(int, arr)
     groundTruthDimensionArray.append([arr[0], arr[1], arr[2]+arr[0], arr[3]+arr[1]])
-
+    
+    # Get ground truth area
+    for x in range(arr[0], arr[2]+arr[0]):
+        for y in range(arr[1], arr[3]+arr[1]):
+            image_gt[x][y] = 1
+            count_gt += 1
+            
 print groundTruthDimensionArray
 # Create threads for optimization (optional)
 cv2.setUseOptimized(True)
@@ -148,11 +166,12 @@ for i in range(len(rects)):
                 if len(IoUArray) == 0:
                     IoUArray.append(0.0)
 
-                print "IoU: ", IoUArray
+                # Initialize variables for IoU values
+                #print "IoU: ", IoUArray
                 maxIoU = max(IoUArray)
                 index = IoUArray.index(maxIoU)
                 IoUCount = 0
-                print "Index: ", index
+                #print "Index: ", index
 
                 # Inspect all IoU values and if a value reaches at least 50%, it is a prospect coconut object
                 for i in IoUArray:
@@ -163,7 +182,13 @@ for i in range(len(rects)):
 
                 # Check if count exactly 1 (it means that the segment is correctly fitted to one ground truth coconut), add it to the list
                 if IoUCount == 1:
+
                     dimensionArray.append([x, y, x+w, y+h])
+                    # Get total area of detected coconuts
+                    for a in range(x, x+w):
+                        for b in range(y, y+h):
+                            image_d[a][b] = 2
+                            count_d += 1
                     del groundTruthDimensionArray[index]
 
             # Otherwise, detected segment is not a coconut. Ignore.
@@ -177,14 +202,30 @@ for d in dimensionArray:
     tp += 1
     cv2.putText(wimg, "#{}".format(tp), (int((d[2] + d[0]) / 2 - 10), int((d[3] + d[1]) / 2)), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1)
 
+# Get total area of overlap
+for x in range(0, img_w):
+    for y in range(0, img_h):
+        if image_gt[x][y] == 1 and image_d[x][y] == 2:
+            image_o = 3
+            count_o += 1
+
+# Get IoU and accuracy in terms of total area
+area_acc = float(count_o) / count_gt
+area_IoU = float(count_o) / ((count_gt + count_d) - count_o)
+
 # Show statistics
 print "|===== Choice: " + selSearch_type + " =====|"
 print "Name:", newname
-print "Detected segments (TP, TN, FP, FN):", len(rects)
+print "Detected segments:", len(rects)
 print "Coconut count (TP):", tp
-print "Overlapped coconuts (FP):", fp
+#print "Overlapped coconuts (FP):", fp
 print "Non-coconut count (TN):", tn
-print "Overlap + non-coconut count:", (tn + fp)
+#print "Overlap + non-coconut count:", (tn + fp)
+print "Ground truth area: ",count_gt
+print "Detected area: ", count_d
+print "Overlap area: ", count_o
+print "IoU: ", area_IoU
+print "Accuracy: ", area_acc
 
 # Write the statistics to a file
 # file = open("../stats_pretrained_15.txt", "a")
