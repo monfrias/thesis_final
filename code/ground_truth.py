@@ -8,13 +8,13 @@ import numpy as np
 import cv2
 
 DRYRUN = True
-name = "sp_24"
+name = "sp_12"
 
 # Read image file
 img = cv2.imread("../dataset/predictions/images/" + name + ".jpg")
 
 # Open text file for segment dimensions
-f = open('../segment_dimensions.txt')
+f = open('../gt_segments/segments_12.txt')
 
 # Map all segments within the image
 for line in f.read().split():
