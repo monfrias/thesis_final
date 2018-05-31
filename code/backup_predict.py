@@ -37,11 +37,11 @@ model = load_model('../models/coconuts_pretrained_15.h5')
 # file = open("../stats_new_ss.txt", "a")
 
 # Read image file
-newname = "sp_18"
-img = cv2.imread("../dataset/predictions/images/" + newname + ".jpg")
+newname = "sp_02"
+img = cv2.imread("../dataset/predictions/images/" + newname + ".png")
 
 # Open text file for segment dimensions
-fname = "segments_18"
+fname = "segments_02"
 f = open("../gt_segments/" + fname + ".txt")
 
 # Map all ground truth segments
@@ -139,9 +139,14 @@ for i in range(len(rects)):
                         groundTruthArea = (l[2] - l[0]) * (l[3] - l[1])
                         IoU = float(overlapArea) / ((groundTruthArea + detectedArea) - overlapArea)
                         IoUArray.append(IoU)
+
                     else:
                         # Otherwise, it does not overlap with ground truth: a true negative.
                         IoUArray.append(0.0)
+                
+                # Otherwise, it does not overlap with ground truth: a true negative.
+                if len(IoUArray) == 0:
+                    IoUArray.append(0.0)
 
                 print "IoU: ", IoUArray
                 maxIoU = max(IoUArray)
@@ -149,13 +154,14 @@ for i in range(len(rects)):
                 IoUCount = 0
                 print "Index: ", index
 
+                # Inspect all IoU values and if a value reaches at least 50%, it is a prospect coconut object
                 for i in IoUArray:
                     if i > 0.50:
                         IoUCount += 1
 
                 #print "Count: ", IoUCount
 
-                # Check if IoU is at least 80%, add the current box to the list
+                # Check if count exactly 1 (it means that the segment is correctly fitted to one ground truth coconut), add it to the list
                 if IoUCount == 1:
                     dimensionArray.append([x, y, x+w, y+h])
                     del groundTruthDimensionArray[index]
