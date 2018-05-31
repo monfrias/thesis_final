@@ -31,18 +31,19 @@ import sys
 from keras.models import load_model
 
 # Load the model
-model = load_model('../models/coconuts_pretrained_15.h5')
+model = load_model('../models/coconuts_original.h5')
 
 # #Open file for saving statistics
 # file = open("../stats_new_ss.txt", "a")
 
 # Read image file
-newname = "sp_04"
+newname = "sp_00"
 img = cv2.imread("../dataset/predictions/images/" + newname + ".jpg")
 img_h, img_w, img_c = img.shape
 
-print "Height: ", img_h
-print "Width: ", img_w
+# Check image dimensions
+# print "Height: ", img_h
+# print "Width: ", img_w
 
 # Initialize image areas to zero
 image_gt = np.zeros((img_w, img_h))
@@ -68,8 +69,10 @@ for line in f.read().split():
         for y in range(arr[1], arr[3]+arr[1]):
             image_gt[x][y] = 1
             count_gt += 1
-            
-print groundTruthDimensionArray
+
+# Print dimensions of ground truths
+# print groundTruthDimensionArray
+
 # Create threads for optimization (optional)
 cv2.setUseOptimized(True)
 cv2.setNumThreads(8)
@@ -113,8 +116,6 @@ wimg = img.copy()
 # Declare variables
 tp = 0
 tn = 0
-fp = 0
-fn = 0
 dimensionArray = []
 
 # Inspect every segment
@@ -218,9 +219,7 @@ print "|===== Choice: " + selSearch_type + " =====|"
 print "Name:", newname
 print "Detected segments:", len(rects)
 print "Coconut count (TP):", tp
-#print "Overlapped coconuts (FP):", fp
 print "Non-coconut count (TN):", tn
-#print "Overlap + non-coconut count:", (tn + fp)
 print "Ground truth area: ",count_gt
 print "Detected area: ", count_d
 print "Overlap area: ", count_o
@@ -228,28 +227,31 @@ print "IoU: ", area_IoU
 print "Accuracy: ", area_acc
 
 # Write the statistics to a file
-# file = open("../stats_pretrained_15.txt", "a")
-# file.write("|===== Choice: " + selSearch_type + " =====|\n")
-# file.write("Name: " + newname + "\n")
-# file.write("Detected segments (TP, TN, and FP): " + str(len(rects)) + "\n")
-# file.write("Coconut count (TP and/or FP): " +  str(tp) + "\n")
-# file.write("Overlapped coconuts (TN1): " +  str(fp) + "\n")
-# file.write("Non-coconut count (TN2): " + str(tn) + "\n")
-# file.write("Overlap + non-coconut count (TN1+TN2): " + str(tn + fp) + "\n\n")
+file = open("../stats_original.txt", "a")
+file.write("|===== Choice: " + selSearch_type + " =====|\n")
+file.write("Name: " + newname + "\n")
+file.write("Detected segments:" + str(len(rects)) + "\n")
+file.write("Coconut count (TP):" + str(tp) + "\n")
+file.write("Non-coconut count (TN):" + str(tn) + "\n")
+file.write("Ground truth area: " + str(count_gt) + "\n")
+file.write("Detected area: " + str(count_d) + "\n")
+file.write("Overlap area: " + str(count_o) + "\n")
+file.write("IoU: " + str(area_IoU) + "\n")
+file.write("Accuracy: " + str(area_acc) + "\n")
+
 # Save output image
-# Single strategy
 if selSearch_type == 's':
-    cv2.imwrite("../dataset/predictions/" + newname + ".png", wimg)
+    cv2.imwrite("../dataset/predictions/single_strategy/" + newname + ".png", wimg)
     print "Successfully saved single strategy file"
 elif selSearch_type == 'f':
-    cv2.imwrite("../dataset/predictions/" + newname + ".png", wimg)
+    cv2.imwrite("../dataset/predictions/ss_fast/" + newname + ".png", wimg)
     print "Successfully saved selective search fast file"
 elif selSearch_type == 'q':
-    cv2.imwrite("../dataset/predictions/" + newname + ".png", wimg)
+    cv2.imwrite("../dataset/predictions/ss_quality/" + newname + ".png", wimg)
     print "Successfully saved selective search quality file"
 
-# #Close file
-# file.close()
+#Close file
+file.close()
 
 # Delete model to free memory
 del model

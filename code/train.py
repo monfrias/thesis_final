@@ -50,7 +50,7 @@ from keras.preprocessing.image import ImageDataGenerator
 bs = 16
 
 # Epochs                         
-epochs = 25
+epochs = 10
 
 # Perform Image Augmentation to training data
 train_datagen = ImageDataGenerator(rescale = 1./255,
