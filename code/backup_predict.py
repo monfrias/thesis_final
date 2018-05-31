@@ -37,11 +37,11 @@ model = load_model('../models/coconuts_pretrained_15.h5')
 # file = open("../stats_new_ss.txt", "a")
 
 # Read image file
-newname = "sp_04"
+newname = "sp_18"
 img = cv2.imread("../dataset/predictions/images/" + newname + ".jpg")
 
 # Open text file for segment dimensions
-fname = "segments_04"
+fname = "segments_18"
 f = open("../gt_segments/" + fname + ".txt")
 
 # Map all ground truth segments
@@ -127,7 +127,7 @@ for i in range(len(rects)):
             if result[0][0] == 0:
                 IoUArray = []
 
-                # Check if the current box is overlapping to the existing list of boxes
+                # Check if the current box is overlapping to ground truth boxes
                 for l in groundTruthDimensionArray:
                     dx = min(l[2], x+w) - max(l[0], x)
                     dy = min(l[3], y+h) - max(l[1], y)
@@ -139,21 +139,26 @@ for i in range(len(rects)):
                         groundTruthArea = (l[2] - l[0]) * (l[3] - l[1])
                         IoU = float(overlapArea) / ((groundTruthArea + detectedArea) - overlapArea)
                         IoUArray.append(IoU)
-                        #ratioList = (float(overlapArea) / groundTruthArea)
-                        #ratioCropped = (float(overlapArea) / detectedArea)
-                        #print "ratioC:", ratioCropped
-                        #print "ratioL:", ratioList
-                        # print "Detected Area: ", detectedArea
-                        # print "Ground Truth Area :", groundTruthArea
-                        # print "Overlap: ", overlapArea
-                        print "|==================================|"
                     else:
+                        # Otherwise, it does not overlap with ground truth: a true negative.
                         IoUArray.append(0.0)
 
-                print "IoU: ", max(IoUArray)
+                print "IoU: ", IoUArray
+                maxIoU = max(IoUArray)
+                index = IoUArray.index(maxIoU)
+                IoUCount = 0
+                print "Index: ", index
 
-                if max(IoUArray) > 0.80:
+                for i in IoUArray:
+                    if i > 0.50:
+                        IoUCount += 1
+
+                #print "Count: ", IoUCount
+
+                # Check if IoU is at least 80%, add the current box to the list
+                if IoUCount == 1:
                     dimensionArray.append([x, y, x+w, y+h])
+                    del groundTruthDimensionArray[index]
 
             # Otherwise, detected segment is not a coconut. Ignore.
             else:
