@@ -1,0 +1,750 @@
+|===== Choice: s =====|
+Name: sp_00
+Detected segments:1490
+Coconut count (TP):0
+Non-coconut count (TN):1489
+Ground truth area: 509473
+Detected area: 0
+Overlap area: 0
+IoU: 0.0
+Accuracy: 0.0
+|===== Choice: s =====|
+Name: sp_01
+Detected segments:419
+Coconut count (TP):4
+Non-coconut count (TN):383
+Ground truth area: 306723
+Detected area: 151621
+Overlap area: 147208
+IoU: 0.473130720971
+Accuracy: 0.479937924446
+|===== Choice: s =====|
+Name: sp_02
+Detected segments:606
+Coconut count (TP):3
+Non-coconut count (TN):584
+Ground truth area: 780188
+Detected area: 547159
+Overlap area: 501387
+IoU: 0.607035449659
+Accuracy: 0.642648951278
+|===== Choice: s =====|
+Name: sp_03
+Detected segments:110
+Coconut count (TP):1
+Non-coconut count (TN):101
+Ground truth area: 115248
+Detected area: 105948
+Overlap area: 105948
+IoU: 0.919304456476
+Accuracy: 0.919304456476
+|===== Choice: s =====|
+Name: sp_04
+Detected segments:741
+Coconut count (TP):11
+Non-coconut count (TN):706
+Ground truth area: 556496
+Detected area: 395573
+Overlap area: 338452
+IoU: 0.551568812468
+Accuracy: 0.608184066013
+|===== Choice: s =====|
+Name: sp_05
+Detected segments:187
+Coconut count (TP):1
+Non-coconut count (TN):182
+Ground truth area: 69770
+Detected area: 40915
+Overlap area: 40673
+IoU: 0.580943266869
+Accuracy: 0.582958291529
+|===== Choice: s =====|
+Name: sp_06
+Detected segments:3246
+Coconut count (TP):1
+Non-coconut count (TN):1995
+Ground truth area: 556633
+Detected area: 37184
+Overlap area: 37184
+IoU: 0.0668016448899
+Accuracy: 0.0668016448899
+|===== Choice: s =====|
+Name: sp_07
+Detected segments:351
+Coconut count (TP):1
+Non-coconut count (TN):346
+Ground truth area: 531552
+Detected area: 460897
+Overlap area: 460897
+IoU: 0.867077915237
+Accuracy: 0.867077915237
+|===== Choice: s =====|
+Name: sp_08
+Detected segments:603
+Coconut count (TP):0
+Non-coconut count (TN):587
+Ground truth area: 97215
+Detected area: 0
+Overlap area: 0
+IoU: 0.0
+Accuracy: 0.0
+|===== Choice: s =====|
+Name: sp_09
+Detected segments:279
+Coconut count (TP):1
+Non-coconut count (TN):270
+Ground truth area: 147104
+Detected area: 65952
+Overlap area: 62937
+IoU: 0.419247397065
+Accuracy: 0.427840167501
+|===== Choice: s =====|
+Name: sp_10
+Detected segments:699
+Coconut count (TP):3
+Non-coconut count (TN):687
+Ground truth area: 196034
+Detected area: 55956
+Overlap area: 51712
+IoU: 0.25820110047
+Accuracy: 0.263790975035
+|===== Choice: s =====|
+Name: sp_11
+Detected segments: 130
+Coconut count (TP): 0
+Non-coconut count (TN): 128
+Ground truth area: 24023
+Detected area: 0
+Overlap area: 0
+IoU: 0.0
+Accuracy: 0.0
+|===== Choice: s =====|
+Name: sp_12
+Detected segments: 1253
+Coconut count (TP): 0
+Non-coconut count (TN): 1248
+Ground truth area: 1173051
+Detected area: 0
+Overlap area: 0
+IoU: 0.0
+Accuracy: 0.0
+|===== Choice: s =====|
+Name: sp_13
+Detected segments: 725
+Coconut count (TP): 0
+Non-coconut count (TN): 717
+Ground truth area: 60244
+Detected area: 0
+Overlap area: 0
+IoU: 0.0
+Accuracy: 0.0
+|===== Choice: s =====|
+Name: sp_14
+Detected segments: 477
+Coconut count (TP): 1
+Non-coconut count (TN): 466
+Ground truth area: 198253
+Detected area: 89270
+Overlap area: 88484
+IoU: 0.444556092022
+Accuracy: 0.446318592909
+|===== Choice: s =====|
+Name: sp_15
+Detected segments: 552
+Coconut count (TP): 0
+Non-coconut count (TN): 549
+Ground truth area: 87964
+Detected area: 0
+Overlap area: 0
+IoU: 0.0
+Accuracy: 0.0
+|===== Choice: s =====|
+Name: sp_16
+Detected segments: 1126
+Coconut count (TP): 2
+Non-coconut count (TN): 1114
+Ground truth area: 347343
+Detected area: 194626
+Overlap area: 180672
+IoU: 0.500065043441
+Accuracy: 0.520154429483
+|===== Choice: s =====|
+Name: sp_17
+Detected segments: 786
+Coconut count (TP): 2
+Non-coconut count (TN): 777
+Ground truth area: 141402
+Detected area: 31291
+Overlap area: 26847
+IoU: 0.18407772582
+Accuracy: 0.189862943947
+|===== Choice: s =====|
+Name: sp_18
+Detected segments: 70
+Coconut count (TP): 0
+Non-coconut count (TN): 67
+Ground truth area: 21312
+Detected area: 0
+Overlap area: 0
+IoU: 0.0
+Accuracy: 0.0
+|===== Choice: s =====|
+Name: sp_19
+Detected segments: 751
+Coconut count (TP): 0
+Non-coconut count (TN): 749
+Ground truth area: 161454
+Detected area: 0
+Overlap area: 0
+IoU: 0.0
+Accuracy: 0.0
+|===== Choice: s =====|
+Name: sp_20
+Detected segments: 1488
+Coconut count (TP): 0
+Non-coconut count (TN): 1479
+Ground truth area: 654961
+Detected area: 0
+Overlap area: 0
+IoU: 0.0
+Accuracy: 0.0
+|===== Choice: s =====|
+Name: sp_21
+Detected segments: 979
+Coconut count (TP): 0
+Non-coconut count (TN): 978
+Ground truth area: 271165
+Detected area: 0
+Overlap area: 0
+IoU: 0.0
+Accuracy: 0.0
+|===== Choice: s =====|
+Name: sp_22
+Detected segments: 417
+Coconut count (TP): 1
+Non-coconut count (TN): 405
+Ground truth area: 75902
+Detected area: 12078
+Overlap area: 11583
+IoU: 0.151615901148
+Accuracy: 0.152604674449
+|===== Choice: s =====|
+Name: sp_23
+Detected segments: 724
+Coconut count (TP): 5
+Non-coconut count (TN): 708
+Ground truth area: 425108
+Detected area: 243916
+Overlap area: 211206
+IoU: 0.461331795604
+Accuracy: 0.496829041091
+|===== Choice: s =====|
+Name: sp_24
+Detected segments: 850
+Coconut count (TP): 4
+Non-coconut count (TN): 842
+Ground truth area: 951050
+Detected area: 333473
+Overlap area: 298793
+IoU: 0.303118501009
+Accuracy: 0.314171704958
+|===== Choice: f =====|
+Name: sp_00
+Detected segments: 6798
+Coconut count (TP): 0
+Non-coconut count (TN): 1996
+Ground truth area: 509473
+Detected area: 0
+Overlap area: 0
+IoU: 0.0
+Accuracy: 0.0
+|===== Choice: f =====|
+Name: sp_01
+Detected segments: 2118
+Coconut count (TP): 4
+Non-coconut count (TN): 1814
+Ground truth area: 306723
+Detected area: 217004
+Overlap area: 189114
+IoU: 0.565172303527
+Accuracy: 0.616562827046
+|===== Choice: f =====|
+Name: sp_02
+Detected segments: 2754
+Coconut count (TP): 3
+Non-coconut count (TN): 1945
+Ground truth area: 780188
+Detected area: 488856
+Overlap area: 452257
+IoU: 0.553702495265
+Accuracy: 0.579676949658
+|===== Choice: f =====|
+Name: sp_03
+Detected segments: 528
+Coconut count (TP): 1
+Non-coconut count (TN): 446
+Ground truth area: 115248
+Detected area: 110230
+Overlap area: 89376
+IoU: 0.65668395762
+Accuracy: 0.775510204082
+|===== Choice: f =====|
+Name: sp_04
+Detected segments: 3664
+Coconut count (TP): 13
+Non-coconut count (TN): 1903
+Ground truth area: 556496
+Detected area: 478261
+Overlap area: 388792
+IoU: 0.601877810717
+Accuracy: 0.698642937236
+|===== Choice: f =====|
+Name: sp_05
+Detected segments: 780
+Coconut count (TP): 2
+Non-coconut count (TN): 752
+Ground truth area: 69770
+Detected area: 52548
+Overlap area: 39826
+IoU: 0.482786209572
+Accuracy: 0.570818403325
+|===== Choice: f =====|
+Name: sp_06
+Detected segments: 15300
+Coconut count (TP): 1
+Non-coconut count (TN): 1992
+Ground truth area: 556633
+Detected area: 40915
+Overlap area: 40915
+IoU: 0.0735044454784
+Accuracy: 0.0735044454784
+|===== Choice: f =====|
+Name: sp_07
+Detected segments: 1430
+Coconut count (TP): 1
+Non-coconut count (TN): 1387
+Ground truth area: 531552
+Detected area: 1000000
+Overlap area: 531552
+IoU: 0.531552
+Accuracy: 1.0
+|===== Choice: f =====|
+Name: sp_08
+Detected segments: 2862
+Coconut count (TP): 4
+Non-coconut count (TN): 1963
+Ground truth area: 97215
+Detected area: 60247
+Overlap area: 40804
+IoU: 0.349774554681
+Accuracy: 0.419729465617
+|===== Choice: f =====|
+Name: sp_09
+Detected segments: 1318
+Coconut count (TP): 2
+Non-coconut count (TN): 1269
+Ground truth area: 147104
+Detected area: 160963
+Overlap area: 107496
+IoU: 0.535949863141
+Accuracy: 0.730748314118
+|===== Choice: f =====|
+Name: sp_10
+Detected segments: 3577
+Coconut count (TP): 4
+Non-coconut count (TN): 1976
+Ground truth area: 196034
+Detected area: 149100
+Overlap area: 115257
+IoU: 0.501385523563
+Accuracy: 0.587943928094
+|===== Choice: f =====|
+Name: sp_11
+Detected segments: 637
+Coconut count (TP): 0
+Non-coconut count (TN): 630
+Ground truth area: 24023
+Detected area: 0
+Overlap area: 0
+IoU: 0.0
+Accuracy: 0.0
+|===== Choice: f =====|
+Name: sp_12
+Detected segments: 5973
+Coconut count (TP): 0
+Non-coconut count (TN): 1990
+Ground truth area: 1173051
+Detected area: 0
+Overlap area: 0
+IoU: 0.0
+Accuracy: 0.0
+|===== Choice: f =====|
+Name: sp_13
+Detected segments: 3344
+Coconut count (TP): 0
+Non-coconut count (TN): 1988
+Ground truth area: 60244
+Detected area: 0
+Overlap area: 0
+IoU: 0.0
+Accuracy: 0.0
+|===== Choice: f =====|
+Name: sp_14
+Detected segments: 2295
+Coconut count (TP): 2
+Non-coconut count (TN): 1922
+Ground truth area: 198253
+Detected area: 106668
+Overlap area: 97095
+IoU: 0.467193710123
+Accuracy: 0.489752992389
+|===== Choice: f =====|
+Name: sp_15
+Detected segments: 2691
+Coconut count (TP): 3
+Non-coconut count (TN): 1971
+Ground truth area: 87964
+Detected area: 37312
+Overlap area: 29338
+IoU: 0.305801663574
+Accuracy: 0.333522804784
+|===== Choice: f =====|
+Name: sp_16
+Detected segments: 4417
+Coconut count (TP): 1
+Non-coconut count (TN): 1993
+Ground truth area: 347343
+Detected area: 80384
+Overlap area: 80384
+IoU: 0.231425420982
+Accuracy: 0.231425420982
+|===== Choice: f =====|
+Name: sp_17
+Detected segments: 4025
+Coconut count (TP): 8
+Non-coconut count (TN): 1967
+Ground truth area: 141402
+Detected area: 120750
+Overlap area: 101176
+IoU: 0.628516052082
+Accuracy: 0.715520289671
+|===== Choice: f =====|
+Name: sp_18
+Detected segments: 308
+Coconut count (TP): 1
+Non-coconut count (TN): 299
+Ground truth area: 21312
+Detected area: 23345
+Overlap area: 20300
+IoU: 0.833435973232
+Accuracy: 0.952515015015
+|===== Choice: f =====|
+Name: sp_19
+Detected segments: 3178
+Coconut count (TP): 0
+Non-coconut count (TN): 1996
+Ground truth area: 161454
+Detected area: 0
+Overlap area: 0
+IoU: 0.0
+Accuracy: 0.0
+|===== Choice: f =====|
+Name: sp_20
+Detected segments: 7277
+Coconut count (TP): 1
+Non-coconut count (TN): 1986
+Ground truth area: 654961
+Detected area: 62160
+Overlap area: 62160
+IoU: 0.094906414275
+Accuracy: 0.094906414275
+|===== Choice: f =====|
+Name: sp_21
+Detected segments: 4040
+Coconut count (TP): 4
+Non-coconut count (TN): 1981
+Ground truth area: 271165
+Detected area: 132084
+Overlap area: 105497
+IoU: 0.354311641903
+Accuracy: 0.38905094684
+|===== Choice: f =====|
+Name: sp_22
+Detected segments: 1986
+Coconut count (TP): 2
+Non-coconut count (TN): 1935
+Ground truth area: 75902
+Detected area: 30500
+Overlap area: 26225
+IoU: 0.327088815995
+Accuracy: 0.345511317225
+|===== Choice: f =====|
+Name: sp_23
+Detected segments: 3573
+Coconut count (TP): 6
+Non-coconut count (TN): 1960
+Ground truth area: 425108
+Detected area: 317829
+Overlap area: 274301
+IoU: 0.58531781596
+Accuracy: 0.645250148198
+|===== Choice: f =====|
+Name: sp_24
+Detected segments: 3748
+Coconut count (TP): 2
+Non-coconut count (TN): 1982
+Ground truth area: 951050
+Detected area: 128724
+Overlap area: 128037
+IoU: 0.134529812333
+Accuracy: 0.13462699122
+|===== Choice: q =====|
+Name: sp_00
+Detected segments: 25051
+Coconut count (TP): 0
+Non-coconut count (TN): 1998
+Ground truth area: 509473
+Detected area: 0
+Overlap area: 0
+IoU: 0.0
+Accuracy: 0.0
+|===== Choice: q =====|
+Name: sp_01
+Detected segments: 7562
+Coconut count (TP): 5
+Non-coconut count (TN): 1911
+Ground truth area: 306723
+Detected area: 251473
+Overlap area: 220321
+IoU: 0.652078431373
+Accuracy: 0.718306093772
+|===== Choice: q =====|
+Name: sp_02
+Detected segments: 10569
+Coconut count (TP): 5
+Non-coconut count (TN): 1945
+Ground truth area: 780188
+Detected area: 638602
+Overlap area: 601571
+IoU: 0.736119693742
+Accuracy: 0.771059026799
+|===== Choice: q =====|
+Name: sp_03
+Detected segments: 1674
+Coconut count (TP): 1
+Non-coconut count (TN): 1372
+Ground truth area: 115248
+Detected area: 107910
+Overlap area: 107910
+IoU: 0.936328613078
+Accuracy: 0.936328613078
+|===== Choice: q =====|
+Name: sp_04
+Detected segments: 15451
+Coconut count (TP): 12
+Non-coconut count (TN): 1893
+Ground truth area: 556496
+Detected area: 496057
+Overlap area: 390943
+IoU: 0.59089644957
+Accuracy: 0.702508194129
+|===== Choice: q =====|
+Name: sp_05
+Detected segments: 2371
+Coconut count (TP): 2
+Non-coconut count (TN): 1953
+Ground truth area: 69770
+Detected area: 55927
+Overlap area: 39888
+IoU: 0.464846344789
+Accuracy: 0.571707037409
+|===== Choice: q =====|
+Name: sp_06
+Detected segments: 60272
+Coconut count (TP): 1
+Non-coconut count (TN): 1997
+Ground truth area: 556633
+Detected area: 40915
+Overlap area: 40915
+IoU: 0.0735044454784
+Accuracy: 0.0735044454784
+|===== Choice: q =====|
+Name: sp_07
+Detected segments: 4442
+Coconut count (TP): 1
+Non-coconut count (TN): 1985
+Ground truth area: 531552
+Detected area: 706040
+Overlap area: 495618
+IoU: 0.667972193096
+Accuracy: 0.932397959184
+|===== Choice: q =====|
+Name: sp_08
+Detected segments: 11780
+Coconut count (TP): 5
+Non-coconut count (TN): 1968
+Ground truth area: 97215
+Detected area: 66212
+Overlap area: 49345
+IoU: 0.432539752108
+Accuracy: 0.507586277838
+|===== Choice: q =====|
+Name: sp_09
+Detected segments: 4129
+Coconut count (TP): 2
+Non-coconut count (TN): 1969
+Ground truth area: 147104
+Detected area: 114950
+Overlap area: 99994
+IoU: 0.617018388251
+Accuracy: 0.679750380683
+|===== Choice: q =====|
+Name: sp_10
+Detected segments: 14923
+Coconut count (TP): 4
+Non-coconut count (TN): 1983
+Ground truth area: 196034
+Detected area: 206696
+Overlap area: 136233
+IoU: 0.511199000364
+Accuracy: 0.694945774713
+|===== Choice: q =====|
+Name: sp_11
+Detected segments: 2099
+Coconut count (TP): 3
+Non-coconut count (TN): 1983
+Ground truth area: 24023
+Detected area: 34886
+Overlap area: 19415
+IoU: 0.491593659796
+Accuracy: 0.808183823835
+|===== Choice: q =====|
+Name: sp_12
+Detected segments: 22561
+Coconut count (TP): 1
+Non-coconut count (TN): 1992
+Ground truth area: 1173051
+Detected area: 39072
+Overlap area: 38118
+IoU: 0.0324683455352
+Accuracy: 0.0324947508676
+|===== Choice: q =====|
+Name: sp_13
+Detected segments: 11690
+Coconut count (TP): 0
+Non-coconut count (TN): 1990
+Ground truth area: 60244
+Detected area: 0
+Overlap area: 0
+IoU: 0.0
+Accuracy: 0.0
+|===== Choice: q =====|
+Name: sp_14
+Detected segments: 9013
+Coconut count (TP): 1
+Non-coconut count (TN): 1964
+Ground truth area: 198253
+Detected area: 83700
+Overlap area: 64629
+IoU: 0.297385470542
+Accuracy: 0.32599254488
+|===== Choice: q =====|
+Name: sp_15
+Detected segments: 9835
+Coconut count (TP): 2
+Non-coconut count (TN): 1967
+Ground truth area: 87964
+Detected area: 25292
+Overlap area: 16648
+IoU: 0.172325273269
+Accuracy: 0.189259242417
+|===== Choice: q =====|
+Name: sp_16
+Detected segments: 14899
+Coconut count (TP): 1
+Non-coconut count (TN): 1987
+Ground truth area: 347343
+Detected area: 118815
+Overlap area: 98432
+IoU: 0.267677564273
+Accuracy: 0.283385587157
+|===== Choice: q =====|
+Name: sp_17
+Detected segments: 14899
+Coconut count (TP): 6
+Non-coconut count (TN): 1966
+Ground truth area: 141402
+Detected area: 106469
+Overlap area: 86506
+IoU: 0.536088990797
+Accuracy: 0.611773525127
+|===== Choice: q =====|
+Name: sp_18
+Detected segments: 939
+Coconut count (TP): 1
+Non-coconut count (TN): 905
+Ground truth area: 21312
+Detected area: 12932
+Overlap area: 12826
+IoU: 0.598842095434
+Accuracy: 0.601820570571
+|===== Choice: q =====|
+Name: sp_19
+Detected segments: 12117
+Coconut count (TP): 0
+Non-coconut count (TN): 1992
+Ground truth area: 161454
+Detected area: 0
+Overlap area: 0
+IoU: 0.0
+Accuracy: 0.0
+|===== Choice: q =====|
+Name: sp_20
+Detected segments: 30828
+Coconut count (TP): 1
+Non-coconut count (TN): 1988
+Ground truth area: 654961
+Detected area: 57028
+Overlap area: 57028
+IoU: 0.0870708332252
+Accuracy: 0.0870708332252
+|===== Choice: q =====|
+Name: sp_21
+Detected segments: 12845
+Coconut count (TP): 5
+Non-coconut count (TN): 1984
+Ground truth area: 271165
+Detected area: 127052
+Overlap area: 100674
+IoU: 0.338351095472
+Accuracy: 0.371264728118
+|===== Choice: q =====|
+Name: sp_22
+Detected segments: 7182
+Coconut count (TP): 1
+Non-coconut count (TN): 1974
+Ground truth area: 75902
+Detected area: 14632
+Overlap area: 12636
+IoU: 0.162212123546
+Accuracy: 0.166477826671
+|===== Choice: q =====|
+Name: sp_23
+Detected segments: 13646
+Coconut count (TP): 5
+Non-coconut count (TN): 1963
+Ground truth area: 425108
+Detected area: 348758
+Overlap area: 270319
+IoU: 0.536829729896
+Accuracy: 0.635883116761
+|===== Choice: q =====|
+Name: sp_24
+Detected segments: 11394
+Coconut count (TP): 3
+Non-coconut count (TN): 1987
+Ground truth area: 951050
+Detected area: 189326
+Overlap area: 182495
+IoU: 0.190519490417
+Accuracy: 0.191887913359

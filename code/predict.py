@@ -31,19 +31,16 @@ import sys
 from keras.models import load_model
 
 # Load the model
-model = load_model('../models/coconuts_original.h5')
-
-# #Open file for saving statistics
-# file = open("../stats_new_ss.txt", "a")
+model = load_model('../models/coconuts_pretrained.h5')
 
 # Read image file
-newname = "sp_00"
+newname = "sp_24"
 img = cv2.imread("../dataset/predictions/images/" + newname + ".jpg")
 img_h, img_w, img_c = img.shape
 
 # Check image dimensions
-# print "Height: ", img_h
-# print "Width: ", img_w
+print "Height: ", img_h
+print "Width: ", img_w
 
 # Initialize image areas to zero
 image_gt = np.zeros((img_w, img_h))
@@ -54,7 +51,7 @@ count_d = 0
 count_o = 0
 
 # Open text file for segment dimensions
-fname = "segments_04"
+fname = "segments_24"
 f = open("../gt_segments/" + fname + ".txt")
 
 # Map all ground truth segments
@@ -71,7 +68,7 @@ for line in f.read().split():
             count_gt += 1
 
 # Print dimensions of ground truths
-# print groundTruthDimensionArray
+print groundTruthDimensionArray
 
 # Create threads for optimization (optional)
 cv2.setUseOptimized(True)
@@ -179,7 +176,7 @@ for i in range(len(rects)):
                     if i > 0.50:
                         IoUCount += 1
 
-                #print "Count: ", IoUCount
+                # print "Count: ", IoUCount
 
                 # Check if count exactly 1 (it means that the segment is correctly fitted to one ground truth coconut), add it to the list
                 if IoUCount == 1:
@@ -227,12 +224,12 @@ print "IoU: ", area_IoU
 print "Accuracy: ", area_acc
 
 # Write the statistics to a file
-file = open("../stats_original.txt", "a")
+file = open("../stats_pretrained.txt", "a")
 file.write("|===== Choice: " + selSearch_type + " =====|\n")
 file.write("Name: " + newname + "\n")
-file.write("Detected segments:" + str(len(rects)) + "\n")
-file.write("Coconut count (TP):" + str(tp) + "\n")
-file.write("Non-coconut count (TN):" + str(tn) + "\n")
+file.write("Detected segments: " + str(len(rects)) + "\n")
+file.write("Coconut count (TP): " + str(tp) + "\n")
+file.write("Non-coconut count (TN): " + str(tn) + "\n")
 file.write("Ground truth area: " + str(count_gt) + "\n")
 file.write("Detected area: " + str(count_d) + "\n")
 file.write("Overlap area: " + str(count_o) + "\n")
@@ -241,13 +238,13 @@ file.write("Accuracy: " + str(area_acc) + "\n")
 
 # Save output image
 if selSearch_type == 's':
-    cv2.imwrite("../dataset/predictions/single_strategy/" + newname + ".png", wimg)
+    cv2.imwrite("../dataset/predictions/single_strategy_pt/" + newname + ".png", wimg)
     print "Successfully saved single strategy file"
 elif selSearch_type == 'f':
-    cv2.imwrite("../dataset/predictions/ss_fast/" + newname + ".png", wimg)
+    cv2.imwrite("../dataset/predictions/ss_fast_pt/" + newname + ".png", wimg)
     print "Successfully saved selective search fast file"
 elif selSearch_type == 'q':
-    cv2.imwrite("../dataset/predictions/ss_quality/" + newname + ".png", wimg)
+    cv2.imwrite("../dataset/predictions/ss_quality_pt/" + newname + ".png", wimg)
     print "Successfully saved selective search quality file"
 
 #Close file
