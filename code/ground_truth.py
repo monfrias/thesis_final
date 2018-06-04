@@ -1,7 +1,7 @@
 # Author: Mon Cedrick G. Frias
 # Date: May 28, 2018
 # Filename: ground_truth.py
-# Code Reference: This program maps ground truth segments in an image.
+# Code Reference: This program maps all ground truth segments in an image.
 
 
 import numpy as np
